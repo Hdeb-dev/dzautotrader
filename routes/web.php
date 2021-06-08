@@ -19,5 +19,5 @@ Route::get('estimation','App\Http\Controllers\EstimationController@index')->name
 //Route::resource('estimation','App\Http\Controllers\EstimationController');
 Route::get('/{page}', 'App\Http\Controllers\AdminController@index');
 Route::get('/', function () {
-    return view('pages.index');
+    return view('index');
 });
